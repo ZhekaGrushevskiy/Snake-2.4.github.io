@@ -410,7 +410,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     draw();
     
     function draw() {
-        var stopGame = setTimeout(draw, 120);
+        var stopGame = setTimeout(draw, 150);
         orientFun();
 
         for (let i = 0; i < fieldWidth; i = i + fieldOne) {
